@@ -32,6 +32,8 @@ country code.
     'bbc'
     >>> '.'.join(ext[:2]) # rejoin subdomain and domain
     'forums.bbc'
+    >>> ext.registered_domain
+    'bbc.co.uk'
 
 This module started by implementing the chosen answer from [this StackOverflow question on
 getting the "domain name" from a URL](http://stackoverflow.com/questions/569137/how-to-get-domain-name-from-url/569219#569219).
